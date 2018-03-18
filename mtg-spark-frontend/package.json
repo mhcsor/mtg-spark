@@ -1,0 +1,17 @@
+{
+  "name": "mtg-spark-frontend",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "",
+  "main": "./app",
+  "scripts": {
+    "build": "webpack -p",
+    "dev": "webpack-dev-server --mode development --inline --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "4.1.1",
+    "webpack-cli": "2.0.12",
+    "webpack-dev-server": "3.1.1"
+  }
+}
